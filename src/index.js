@@ -8,13 +8,15 @@ import Hellopage from './comp/Hellopage';
 import Goodmorning from './comp/Goodmorning';
 import Navbar from './comp/Navbar';
 import Animes from './comp/Animes';
+import Someusers from './comp/Someusers';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    
+  <React.StrictMode>    
     <BrowserRouter>
     <Navbar></Navbar>
     <Routes>
+      <Route path="users" element={<Someusers></Someusers>}></Route>
       <Route path="/" element={<Hellopage></Hellopage>}></Route>
       <Route path="Good" element={<Goodmorning></Goodmorning>}></Route>
       <Route path="anime" element={<Animes></Animes>}></Route>
