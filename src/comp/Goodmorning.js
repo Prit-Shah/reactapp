@@ -9,7 +9,7 @@ function Goodmorning() {
     return () => clearInterval(newint);
   }, [count]);
   return (
-    <div>
+    <div className="container-fluid py-5 text-center">
       <h1>Good Morning {count}</h1>
     </div>
   );

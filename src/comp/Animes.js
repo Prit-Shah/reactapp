@@ -19,8 +19,9 @@ function Animes() {
               if (data.data.data.images.jpg.image_url)
                 setimageurl(data.data.data.images.jpg.image_url);
         } 
-        if(count>5) setcount(0);       
+             
       setcount(count + 1)
+      if(count>5) setcount(0); 
     }, 500);
 
    return ()=> {clearInterval(getcount);
