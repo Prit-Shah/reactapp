@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Hellopage from "./comp/Hellopage";
+import Goodmorning from "./comp/Goodmorning";
+import Navbar from "./comp/Navbar";
+import Animes from "./comp/Animes";
+import Footer from "./comp/Footer";
+import { Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Hellopage></Hellopage>} />
+        <Route path="Good" element={<Goodmorning></Goodmorning>} />
+        <Route path="anime" element={<Animes></Animes>} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 
