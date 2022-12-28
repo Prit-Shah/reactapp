@@ -7,6 +7,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Hellopage from './comp/Hellopage';
 import Goodmorning from './comp/Goodmorning';
 import Navbar from './comp/Navbar';
+import Animes from './comp/Animes';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ root.render(
     <Routes>
       <Route path="/" element={<Hellopage></Hellopage>}></Route>
       <Route path="Good" element={<Goodmorning></Goodmorning>}></Route>
+      <Route path="anime" element={<Animes></Animes>}></Route>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
