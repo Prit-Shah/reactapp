@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -21,6 +22,18 @@ root.render(
       <Route path="Good" element={<Goodmorning></Goodmorning>}></Route>
       <Route path="anime" element={<Animes></Animes>}></Route>
     </Routes>
+=======
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter } from "react-router-dom";
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+>>>>>>> Commit From prafulbranch
     </BrowserRouter>
   </React.StrictMode>
 );
