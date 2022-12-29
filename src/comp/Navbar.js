@@ -181,7 +181,6 @@ function Navbar() {
   );
   const pages = {
     Hello: "/",
-    Good: "good",
     Anime: "anime",
     Users: "users",
     Prit: "pageprit",

@@ -1,5 +1,4 @@
 import Hellopage from "./comp/Hellopage";
-import Goodmorning from "./comp/Goodmorning";
 import Navbar from "./comp/Navbar";
 import Animes from "./comp/Animes";
 import Footer from "./comp/Footer";
@@ -13,7 +12,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Hellopage></Hellopage>} />
-        <Route path="Good" element={<Goodmorning></Goodmorning>} />
         <Route path="anime" element={<Animes></Animes>} />
         <Route path="users" element={<Someusers></Someusers>} />
         <Route path="pageprit" element={<Pageprit></Pageprit>}></Route>
