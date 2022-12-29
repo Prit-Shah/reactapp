@@ -198,10 +198,10 @@ function Navbar() {
     >
       <List>
         {texts.map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
+          <ListItem key={text} disablePadding>            
+            <ListItemButton>           
               <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}               
               </ListItemIcon>
               <ListItemText
                 primary={text}
@@ -211,7 +211,7 @@ function Navbar() {
               />
             </ListItemButton>
           </ListItem>
-        ))}
+        ))}      
       </List>
     </Box>
   );
