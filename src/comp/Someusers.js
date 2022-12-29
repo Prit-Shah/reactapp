@@ -41,5 +41,4 @@ function Someusers() {
     </div>
 );
 }
-
 export default Someusers;
