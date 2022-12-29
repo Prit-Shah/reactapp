@@ -23,12 +23,24 @@ function Navbar() {
         </li>   
         <li className="nav-item">
           <NavLink className="nav-link" to="users">Users</NavLink>
+        </li>  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Hello
+          </a>              
+          <ul class="dropdown-menu">
+          <li className="nav-item">
+          <NavLink className="nav-link" to="pageprit">Prit</NavLink>
+        </li>       
+        <li className="nav-item">
+          <NavLink className="nav-link" to="pageprabhat">Prahat</NavLink>
         </li>      
-      </ul>
+          </ul>  
+        </li> 
+          </ul>                
     </div>
   </div>
 </div>
     )
 }
-
 export default Navbar
