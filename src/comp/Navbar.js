@@ -216,7 +216,7 @@ function Navbar() {
       </List>
     </Box>
   );
-  
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
