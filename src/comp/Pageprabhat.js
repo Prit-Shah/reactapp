@@ -16,6 +16,12 @@ function Pageprabhat() {
         sunt adipisci dolorem nesciunt, aut nam nulla id ipsum odio nemo
         laborum.
       </pre>
+      <div>
+        <h1>Prabhat page</h1>
+        <h2>Hello from prabhat with sdfhhdsfjkb</h2>
+        <p>This are some changes made from prit to make conflicts</p>
+        <h1>More changes</h1>
+      </div>
     </div>
   );
 }
