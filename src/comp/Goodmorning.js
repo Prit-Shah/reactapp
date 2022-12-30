@@ -10,9 +10,9 @@ function Goodmorning() {
   }, [count]);
   return (
     <div className="container-fluid py-5 text-center">
-      <h1>Good Morning {count}</h1>
+      <h1>Good Morning {count} times 123456 789</h1>
     </div>
-  );
+  )
 }
 
 export default Goodmorning;
