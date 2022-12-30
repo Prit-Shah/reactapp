@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -14,28 +13,8 @@ import Someusers from './comp/Someusers';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>    
-    <BrowserRouter>
-    <Navbar></Navbar>
-    <Routes>
-      <Route path="users" element={<Someusers></Someusers>}></Route>
-      <Route path="/" element={<Hellopage></Hellopage>}></Route>
-      <Route path="Good" element={<Goodmorning></Goodmorning>}></Route>
-      <Route path="anime" element={<Animes></Animes>}></Route>
-    </Routes>
-=======
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter } from "react-router-dom";
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
->>>>>>> Commit From prafulbranch
-    </BrowserRouter>
-  </React.StrictMode>
+    <App></App>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
