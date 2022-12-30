@@ -1,0 +1,56 @@
+diff --git a/src/comp/Navbar.js b/src/comp/Navbar.js
+index 3aacf91..eda023b 100644
+--- a/src/comp/Navbar.js
++++ b/src/comp/Navbar.js
+@@ -216,7 +216,7 @@ function Navbar() {
+       </List>
+     </Box>
+   );
+-  
++
+   return (
+     <Box sx={{ flexGrow: 1 }}>
+       <AppBar position="static">
+diff --git a/src/comp/Pageprabhat.js b/src/comp/Pageprabhat.js
+index f8ba773..b106bb1 100644
+--- a/src/comp/Pageprabhat.js
++++ b/src/comp/Pageprabhat.js
+@@ -1,13 +1,29 @@
+-import React from 'react'
++import React from "react";
+ 
+ function Pageprabhat() {
+-    return (
+-        <div>
+-            <h1>Prabhat page</h1>
+-            <h2>Hello from prabhat with sdfhhdsfjkb</h2>
+-            <p>This are some changes made from prit to make conflicts</p>
+-        </div>
+-    )
++  return (
++    <div>
++      <h2>Hello, I'm Prabhat</h2>
++      <p>
++        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod,
++        aspernatur repellat! Harum natus perferendis laboriosam dolor a minima,
++        sunt adipisci dolorem nesciunt, aut nam nulla id ipsum odio nemo
++        laborum.
++      </p>
++      <pre>
++        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod,
++        aspernatur repellat! Harum natus perferendis laboriosam dolor a minima,
++        sunt adipisci dolorem nesciunt, aut nam nulla id ipsum odio nemo
++        laborum.
++      </pre>
++      <div>
++        <h1>Prabhat page</h1>
++        <h2>Hello from prabhat with sdfhhdsfjkb</h2>
++        <p>This are some changes made from prit to make conflicts</p>
++        <h1>More changes</h1>
++      </div>
++    </div>
++  );
+ }
+ 
+-export default Pageprabhat
++export default Pageprabhat;
